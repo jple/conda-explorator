@@ -22,8 +22,8 @@ for env in $ENV_NAMES;
 do
 
 echo "		<td> "
-echo "		<table>"
-conda list -n $env | sed 1,3d | awk '{ print "<tr><td>" $1 "</td> <td>" $2 "</td> <td>" $3 "</td></tr>" }'
+echo "		<table id=\"$env\" class=\"packages-list\">"
+conda list -n $env | sed 1,3d | awk '{ print "<tr data-package-name=\""$1"\"><td class=\"package-name\">" $1 "</td> <td class=\"version\">" $2 "</td> <td class=\"build\">" $3 "</td></tr>" }'
 echo "		</table>"
 
 #echo "            <pre>"
@@ -37,3 +37,4 @@ echo "</table>"
 
 
 
+echo "<script src=\"script.js\"></script>"
