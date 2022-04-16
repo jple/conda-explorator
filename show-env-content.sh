@@ -5,6 +5,24 @@
 ENV_NAMES=`conda env list | grep -v "home" | sed 1,2d | cut -d " " -f 1`
 
 
+echo "
+<!-- choices css -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"
+/>
+"
+
+echo "
+<form>
+    <label id=\"bob\"> Recherche de packages : </label>
+    <br />
+    <select name=\"coucou\" id=\"packages-selector\" multiple>
+    </select>
+</form>
+"
+
+
 echo "<table border=\"1\">"
 echo "	<tr>"
 
@@ -36,5 +54,12 @@ echo "	</tr>"
 echo "</table>"
 
 
+echo "
+<!-- import choices.js -->
+<script src=\"https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js\"></script>
+"
 
-echo "<script src=\"script.js\"></script>"
+echo "
+<!-- import custom script -->
+<script src=\"script.js\"></script>
+"
