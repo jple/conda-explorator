@@ -14,6 +14,26 @@ echo "
 "
 
 echo "
+<style>
+table .packages-list {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+table .packages-list tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table .packages-list tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+</style>
+
+"
+
+echo "
 <form>
     <label id=\"bob\"> Recherche de packages : </label>
     <br />
