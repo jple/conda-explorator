@@ -49,18 +49,22 @@ var getSelectedOptionsValues = function(selectId="packages-selector"){
 
 
 /*
- * hide elements if not in search
- * @param {NodeList} nodeList in which perform the transformation
- * @param {Array} selection is the search list
+ * hide elements if not in selection
+ * @param {NodeList} nodeList to hide or not, depending in selection
+ * @param {Array} selection is an array of elements to display
  */
-var filterElementsOnSearch = function(nodeList, selection){
-  nodeList.forEach(elem => {
-    if(selection.includes(elem.getAttribute("data-package-name"))){
-        elem.removeAttribute("hidden")
+var hideElementsNotinSelection = function(nodeList, selection){
+    if(selection.length == 0){
+        nodeList.forEach(elem => elem.removeAttribute("hidden"));
     } else {
-        elem.setAttribute("hidden", "true")
+        nodeList.forEach(elem => {
+            if(selection.includes(elem.getAttribute("data-package-name"))){
+                elem.removeAttribute("hidden")
+            } else {
+                elem.setAttribute("hidden", "true")
+            }
+        })
     }
-})
 };
 
 
@@ -73,10 +77,10 @@ createOptionFromArray(selectElement, allPackagesName)
 
 // Add dynanism on selection change
 selectElement.onchange = () => {
-  var trPackages = document.querySelectorAll("table .packages-list tr")
-  var selectedListPackages = getSelectedOptionsValues()
+  var packagesNodeList = document.querySelectorAll("table .packages-list tr")
+  var selectedPackagesArray = getSelectedOptionsValues()
     
-  filterElementsOnSearch(trPackages, selectedListPackages)
+  hideElementsNotinSelection(packagesNodeList, selectedPackagesArray)
 };
 
 // Add Choices.js plugin for select UI
