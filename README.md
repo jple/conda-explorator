@@ -21,3 +21,4 @@ todo
 - hide env when no packages matched
 - show how many packages are found / number of searched for each env
 - sort env by number of packages found
+- features : search by version
