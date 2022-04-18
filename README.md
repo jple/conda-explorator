@@ -6,6 +6,10 @@ The page contains search bar to find packages in order to choose the proper env.
 - show all conda env with installed packages (including pip)
 - search/filter list of packages from envs
 
+# Requirements
+- conda installed, with `conda` command available
+- awk
+
 # Usage
 1. Create the html page `./show-env-content.sh > main.html`
 2. Open it
