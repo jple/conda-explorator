@@ -22,3 +22,5 @@ todo
 - show how many packages are found / number of searched for each env
 - sort env by number of packages found
 - features : search by version
+- issue : css breaks when search on
+- issue : corr html (table in table)
