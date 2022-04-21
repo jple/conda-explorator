@@ -89,3 +89,7 @@ var choices = new Choices(selectElement, {
   resetScrollPosition: false
 });
 
+// Hide dropdown after addind item
+selectElement.addEventListener('addItem', () => choices.hideDropdown(), false);
+  
+
