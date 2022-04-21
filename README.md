@@ -10,6 +10,10 @@ The page contains search bar to find packages in order to choose the proper env.
 - conda installed, with `conda` command available
 - awk
 
+Dependencies :
+- [Choices.js](https://github.com/Choices-js/Choices)
+- Languages : js, bash
+
 # Usage
 1. Create the html page `./show-env-content.sh > main.html`
 2. Open it
@@ -24,3 +28,4 @@ todo
 - features : search by version
 - issue : css breaks when search on
 - issue : corr html (table in table)
+- show users conda env
