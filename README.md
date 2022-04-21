@@ -29,3 +29,4 @@ todo
 - issue : css breaks when search on
 - issue : corr html (table in table)
 - show users conda env
+- add one-page option (include cat script.js, instead of importing)
