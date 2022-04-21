@@ -83,3 +83,8 @@ echo "
 <!-- import custom script -->
 <script src=\"script.js\"></script>
 "
+
+# If one-page
+# echo "<script>"
+# cat script.js
+# echo "</script>"
