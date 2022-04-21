@@ -19,7 +19,7 @@ Dependencies :
 2. Open it
 
 # Demo
-todo
+[Demo here](https://jple.github.io/conda-explorator/demo/main.html)
 
 # Todo
 - hide env when no packages matched
