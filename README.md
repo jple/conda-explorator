@@ -11,7 +11,7 @@ The page contains search bar to find packages in order to choose the proper env.
 - awk
 
 Dependencies :
-- [Choices.js](https://github.com/Choices-js/Choices)
+- [Choices.js 9.0.1](https://github.com/Choices-js/Choices)
 - Languages : js, bash
 
 # Usage
