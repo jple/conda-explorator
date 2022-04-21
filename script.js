@@ -86,10 +86,9 @@ selectElement.onchange = () => {
 // Add Choices.js plugin for select UI
 var choices = new Choices(selectElement, {
   removeItemButton: true,
-  resetScrollPosition: false
+  // resetScrollPosition: false // overwritten with hideDropDown when adding item
 });
 
 // Hide dropdown after addind item
 selectElement.addEventListener('addItem', () => choices.hideDropdown(), false);
-  
 
