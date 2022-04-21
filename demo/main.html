@@ -1,0 +1,591 @@
+
+<!-- choices css -->
+<link
+  rel=stylesheet
+  href=https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css
+/>
+
+
+<style>
+table .packages-list {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+table .packages-list tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table .packages-list tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+</style>
+
+
+
+<form>
+    <label id="bob"> Recherche de packages : </label>
+    <br />
+    <select name="coucou" id="packages-selector" multiple>
+    </select>
+</form>
+
+<table border="1">
+	<tr>
+		<th> base </th>
+		<th> expose_plot </th>
+		<th> immo </th>
+	</tr>
+	<tr style=vertical-align:top>
+		<td> 
+		<table id="base" class="packages-list">
+<tr data-package-name="_tflow_select"><td class="package-name">_tflow_select</td> <td class="version">2.3.0</td> <td class="build">mkl</td></tr>
+<tr data-package-name="absl-py"><td class="package-name">absl-py</td> <td class="version">0.11.0</td> <td class="build">py36hecd8cb5_0</td></tr>
+<tr data-package-name="altair"><td class="package-name">altair</td> <td class="version">4.0.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="anaconda"><td class="package-name">anaconda</td> <td class="version">custom</td> <td class="build">py36ha4fed55_0</td></tr>
+<tr data-package-name="ansible"><td class="package-name">ansible</td> <td class="version">2.5.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="appnope"><td class="package-name">appnope</td> <td class="version">0.1.0</td> <td class="build">py36hf537a9a_0</td></tr>
+<tr data-package-name="argon2-cffi"><td class="package-name">argon2-cffi</td> <td class="version">20.1.0</td> <td class="build">py36haf1e3a3_1</td></tr>
+<tr data-package-name="astor"><td class="package-name">astor</td> <td class="version">0.8.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="async_generator"><td class="package-name">async_generator</td> <td class="version">1.10</td> <td class="build">py36h28b3542_0</td></tr>
+<tr data-package-name="attrs"><td class="package-name">attrs</td> <td class="version">20.2.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="automat"><td class="package-name">automat</td> <td class="version">20.2.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="aws"><td class="package-name">aws</td> <td class="version">0.2.5</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="awscli"><td class="package-name">awscli</td> <td class="version">1.15.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="backcall"><td class="package-name">backcall</td> <td class="version">0.2.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="backports"><td class="package-name">backports</td> <td class="version">1.0</td> <td class="build">py_2</td></tr>
+<tr data-package-name="backports.functools_lru_cache"><td class="package-name">backports.functools_lru_cache</td> <td class="version">1.6.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="backports.tempfile"><td class="package-name">backports.tempfile</td> <td class="version">1.0</td> <td class="build">py_1</td></tr>
+<tr data-package-name="backports.weakref"><td class="package-name">backports.weakref</td> <td class="version">1.0.post1</td> <td class="build">py_1</td></tr>
+<tr data-package-name="base58"><td class="package-name">base58</td> <td class="version">2.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="bcrypt"><td class="package-name">bcrypt</td> <td class="version">3.1.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="beakerx"><td class="package-name">beakerx</td> <td class="version">0.13.0</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="beautifulsoup4"><td class="package-name">beautifulsoup4</td> <td class="version">4.9.3</td> <td class="build">pyhb0f4dca_0</td></tr>
+<tr data-package-name="blas"><td class="package-name">blas</td> <td class="version">1.0</td> <td class="build">mkl</td></tr>
+<tr data-package-name="bleach"><td class="package-name">bleach</td> <td class="version">3.2.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="blinker"><td class="package-name">blinker</td> <td class="version">1.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="bokeh"><td class="package-name">bokeh</td> <td class="version">2.2.3</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="boto3"><td class="package-name">boto3</td> <td class="version">1.7.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="botocore"><td class="package-name">botocore</td> <td class="version">1.10.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="brotli"><td class="package-name">brotli</td> <td class="version">1.0.9</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="brotlipy"><td class="package-name">brotlipy</td> <td class="version">0.7.0</td> <td class="build">py36haf1e3a3_1000</td></tr>
+<tr data-package-name="c-ares"><td class="package-name">c-ares</td> <td class="version">1.16.1</td> <td class="build">haf1e3a3_0</td></tr>
+<tr data-package-name="ca-certificates"><td class="package-name">ca-certificates</td> <td class="version">2021.10.26</td> <td class="build">hecd8cb5_2</td></tr>
+<tr data-package-name="certifi"><td class="package-name">certifi</td> <td class="version">2021.5.30</td> <td class="build">py36hecd8cb5_0</td></tr>
+<tr data-package-name="cffi"><td class="package-name">cffi</td> <td class="version">1.14.3</td> <td class="build">py36hed5b41f_0</td></tr>
+<tr data-package-name="chardet"><td class="package-name">chardet</td> <td class="version">3.0.4</td> <td class="build">py36_1003</td></tr>
+<tr data-package-name="click"><td class="package-name">click</td> <td class="version">7.1.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="cloudpickle"><td class="package-name">cloudpickle</td> <td class="version">1.6.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="colorama"><td class="package-name">colorama</td> <td class="version">0.3.7</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="colorcet"><td class="package-name">colorcet</td> <td class="version">2.0.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="conda"><td class="package-name">conda</td> <td class="version">4.10.3</td> <td class="build">py36hecd8cb5_0</td></tr>
+<tr data-package-name="conda-build"><td class="package-name">conda-build</td> <td class="version">3.0.27</td> <td class="build">py36hb78d8cd_0</td></tr>
+<tr data-package-name="conda-package-handling"><td class="package-name">conda-package-handling</td> <td class="version">1.7.2</td> <td class="build">py36h22f3db7_0</td></tr>
+<tr data-package-name="conda-verify"><td class="package-name">conda-verify</td> <td class="version">3.4.2</td> <td class="build">py_1</td></tr>
+<tr data-package-name="constantly"><td class="package-name">constantly</td> <td class="version">15.1.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="contextvars"><td class="package-name">contextvars</td> <td class="version">2.4</td> <td class="build">py_0</td></tr>
+<tr data-package-name="cryptography"><td class="package-name">cryptography</td> <td class="version">3.1.1</td> <td class="build">py36hddc9c9b_0</td></tr>
+<tr data-package-name="cycler"><td class="package-name">cycler</td> <td class="version">0.11.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="cytoolz"><td class="package-name">cytoolz</td> <td class="version">0.11.0</td> <td class="build">py36haf1e3a3_0</td></tr>
+<tr data-package-name="dash"><td class="package-name">dash</td> <td class="version">2.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="dash-core-components"><td class="package-name">dash-core-components</td> <td class="version">2.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="dash-html-components"><td class="package-name">dash-html-components</td> <td class="version">2.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="dash-table"><td class="package-name">dash-table</td> <td class="version">5.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="dask"><td class="package-name">dask</td> <td class="version">2.30.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="dask-core"><td class="package-name">dask-core</td> <td class="version">2.30.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="datashader"><td class="package-name">datashader</td> <td class="version">0.6.5</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="datashape"><td class="package-name">datashape</td> <td class="version">0.5.4</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="dbus"><td class="package-name">dbus</td> <td class="version">1.13.18</td> <td class="build">h18a8e69_0</td></tr>
+<tr data-package-name="decorator"><td class="package-name">decorator</td> <td class="version">4.4.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="defusedxml"><td class="package-name">defusedxml</td> <td class="version">0.6.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="distributed"><td class="package-name">distributed</td> <td class="version">2.30.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="entrypoints"><td class="package-name">entrypoints</td> <td class="version">0.3</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="enum-compat"><td class="package-name">enum-compat</td> <td class="version">0.0.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="expat"><td class="package-name">expat</td> <td class="version">2.2.10</td> <td class="build">hb1e8313_2</td></tr>
+<tr data-package-name="fabric"><td class="package-name">fabric</td> <td class="version">1.14.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="faker"><td class="package-name">faker</td> <td class="version">1.0.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="filelock"><td class="package-name">filelock</td> <td class="version">3.0.12</td> <td class="build">py_0</td></tr>
+<tr data-package-name="flask"><td class="package-name">flask</td> <td class="version">1.1.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="flask-compress"><td class="package-name">flask-compress</td> <td class="version">1.10.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="freetype"><td class="package-name">freetype</td> <td class="version">2.10.4</td> <td class="build">ha233b18_0</td></tr>
+<tr data-package-name="fsspec"><td class="package-name">fsspec</td> <td class="version">0.8.3</td> <td class="build">py_0</td></tr>
+<tr data-package-name="future"><td class="package-name">future</td> <td class="version">0.18.2</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="gast"><td class="package-name">gast</td> <td class="version">0.4.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="gettext"><td class="package-name">gettext</td> <td class="version">0.19.8.1</td> <td class="build">hb0f4f8b_2</td></tr>
+<tr data-package-name="glib"><td class="package-name">glib</td> <td class="version">2.66.1</td> <td class="build">h9bbe63b_0</td></tr>
+<tr data-package-name="glob2"><td class="package-name">glob2</td> <td class="version">0.7</td> <td class="build">py_0</td></tr>
+<tr data-package-name="grpcio"><td class="package-name">grpcio</td> <td class="version">1.31.0</td> <td class="build">py36h7580e61_0</td></tr>
+<tr data-package-name="gunicorn"><td class="package-name">gunicorn</td> <td class="version">20.1.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="h5py"><td class="package-name">h5py</td> <td class="version">2.10.0</td> <td class="build">py36h3134771_0</td></tr>
+<tr data-package-name="hdf5"><td class="package-name">hdf5</td> <td class="version">1.10.4</td> <td class="build">hfa1e0ec_0</td></tr>
+<tr data-package-name="heapdict"><td class="package-name">heapdict</td> <td class="version">1.0.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="hyperlink"><td class="package-name">hyperlink</td> <td class="version">20.0.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="icu"><td class="package-name">icu</td> <td class="version">58.2</td> <td class="build">h0a44026_3</td></tr>
+<tr data-package-name="idna"><td class="package-name">idna</td> <td class="version">2.10</td> <td class="build">py_0</td></tr>
+<tr data-package-name="immutables"><td class="package-name">immutables</td> <td class="version">0.14</td> <td class="build">py36haf1e3a3_0</td></tr>
+<tr data-package-name="importlib-metadata"><td class="package-name">importlib-metadata</td> <td class="version">2.0.0</td> <td class="build">py_1</td></tr>
+<tr data-package-name="importlib_metadata"><td class="package-name">importlib_metadata</td> <td class="version">2.0.0</td> <td class="build">1</td></tr>
+<tr data-package-name="incremental"><td class="package-name">incremental</td> <td class="version">17.5.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="iniconfig"><td class="package-name">iniconfig</td> <td class="version">1.1.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="intel-openmp"><td class="package-name">intel-openmp</td> <td class="version">2019.4</td> <td class="build">233</td></tr>
+<tr data-package-name="ipykernel"><td class="package-name">ipykernel</td> <td class="version">5.2.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="ipython"><td class="package-name">ipython</td> <td class="version">7.16.1</td> <td class="build">py36h5ca1d4c_0</td></tr>
+<tr data-package-name="ipython_genutils"><td class="package-name">ipython_genutils</td> <td class="version">0.2.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="ipywidgets"><td class="package-name">ipywidgets</td> <td class="version">7.4.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="itsdangerous"><td class="package-name">itsdangerous</td> <td class="version">1.1.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="jedi"><td class="package-name">jedi</td> <td class="version">0.17.2</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="jinja2"><td class="package-name">jinja2</td> <td class="version">2.11.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jmespath"><td class="package-name">jmespath</td> <td class="version">0.9.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jpeg"><td class="package-name">jpeg</td> <td class="version">9b</td> <td class="build">he5867d9_2</td></tr>
+<tr data-package-name="jsonschema"><td class="package-name">jsonschema</td> <td class="version">3.2.0</td> <td class="build">py_2</td></tr>
+<tr data-package-name="jupyter"><td class="package-name">jupyter</td> <td class="version">1.0.0</td> <td class="build">py36h598a6cc_0</td></tr>
+<tr data-package-name="jupyter-contrib-core"><td class="package-name">jupyter-contrib-core</td> <td class="version">0.3.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jupyter-contrib-nbextensions"><td class="package-name">jupyter-contrib-nbextensions</td> <td class="version">0.4.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jupyter-highlight-selected-word"><td class="package-name">jupyter-highlight-selected-word</td> <td class="version">0.1.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jupyter-latex-envs"><td class="package-name">jupyter-latex-envs</td> <td class="version">1.4.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jupyter-nbextensions-configurator"><td class="package-name">jupyter-nbextensions-configurator</td> <td class="version">0.4.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="jupyter_client"><td class="package-name">jupyter_client</td> <td class="version">6.1.7</td> <td class="build">py_0</td></tr>
+<tr data-package-name="jupyter_console"><td class="package-name">jupyter_console</td> <td class="version">6.2.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="jupyter_core"><td class="package-name">jupyter_core</td> <td class="version">4.6.3</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="jupyterlab_pygments"><td class="package-name">jupyterlab_pygments</td> <td class="version">0.1.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="jupytext"><td class="package-name">jupytext</td> <td class="version">1.2.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="keras"><td class="package-name">keras</td> <td class="version">2.3.1</td> <td class="build">0</td></tr>
+<tr data-package-name="keras-applications"><td class="package-name">keras-applications</td> <td class="version">1.0.8</td> <td class="build">py_1</td></tr>
+<tr data-package-name="keras-base"><td class="package-name">keras-base</td> <td class="version">2.3.1</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="keras-preprocessing"><td class="package-name">keras-preprocessing</td> <td class="version">1.1.0</td> <td class="build">py_1</td></tr>
+<tr data-package-name="kiwisolver"><td class="package-name">kiwisolver</td> <td class="version">1.3.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="libcxx"><td class="package-name">libcxx</td> <td class="version">10.0.0</td> <td class="build">1</td></tr>
+<tr data-package-name="libedit"><td class="package-name">libedit</td> <td class="version">3.1.20191231</td> <td class="build">h1de35cc_1</td></tr>
+<tr data-package-name="libffi"><td class="package-name">libffi</td> <td class="version">3.3</td> <td class="build">hb1e8313_2</td></tr>
+<tr data-package-name="libgfortran"><td class="package-name">libgfortran</td> <td class="version">3.0.1</td> <td class="build">h93005f0_2</td></tr>
+<tr data-package-name="libiconv"><td class="package-name">libiconv</td> <td class="version">1.16</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="libpng"><td class="package-name">libpng</td> <td class="version">1.6.37</td> <td class="build">ha441bb4_0</td></tr>
+<tr data-package-name="libprotobuf"><td class="package-name">libprotobuf</td> <td class="version">3.13.0.1</td> <td class="build">hab81aa3_0</td></tr>
+<tr data-package-name="libsodium"><td class="package-name">libsodium</td> <td class="version">1.0.18</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="libssh2"><td class="package-name">libssh2</td> <td class="version">1.9.0</td> <td class="build">ha12b0ac_1</td></tr>
+<tr data-package-name="libtiff"><td class="package-name">libtiff</td> <td class="version">4.1.0</td> <td class="build">hcb84e12_1</td></tr>
+<tr data-package-name="llvmlite"><td class="package-name">llvmlite</td> <td class="version">0.31.0</td> <td class="build">py36h1341992_0</td></tr>
+<tr data-package-name="locket"><td class="package-name">locket</td> <td class="version">0.2.0</td> <td class="build">py36hca03003_1</td></tr>
+<tr data-package-name="lockfile"><td class="package-name">lockfile</td> <td class="version">0.12.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="luigi"><td class="package-name">luigi</td> <td class="version">2.7.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="lz4-c"><td class="package-name">lz4-c</td> <td class="version">1.9.2</td> <td class="build">h79c402e_3</td></tr>
+<tr data-package-name="markdown"><td class="package-name">markdown</td> <td class="version">3.3.2</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="markupsafe"><td class="package-name">markupsafe</td> <td class="version">1.1.1</td> <td class="build">py36h1de35cc_0</td></tr>
+<tr data-package-name="matplotlib"><td class="package-name">matplotlib</td> <td class="version">3.3.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="maven"><td class="package-name">maven</td> <td class="version">3.6.0</td> <td class="build">0</td></tr>
+<tr data-package-name="missingno"><td class="package-name">missingno</td> <td class="version">0.4.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="mistune"><td class="package-name">mistune</td> <td class="version">0.8.4</td> <td class="build">py36h1de35cc_0</td></tr>
+<tr data-package-name="mkl"><td class="package-name">mkl</td> <td class="version">2019.4</td> <td class="build">233</td></tr>
+<tr data-package-name="mkl-service"><td class="package-name">mkl-service</td> <td class="version">2.3.0</td> <td class="build">py36hfbe908c_0</td></tr>
+<tr data-package-name="mock"><td class="package-name">mock</td> <td class="version">4.0.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="more-itertools"><td class="package-name">more-itertools</td> <td class="version">8.5.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="msgpack-python"><td class="package-name">msgpack-python</td> <td class="version">1.0.0</td> <td class="build">py36h04f5b5a_1</td></tr>
+<tr data-package-name="multipledispatch"><td class="package-name">multipledispatch</td> <td class="version">0.6.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="nbclient"><td class="package-name">nbclient</td> <td class="version">0.5.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="nbconvert"><td class="package-name">nbconvert</td> <td class="version">6.0.7</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="nbformat"><td class="package-name">nbformat</td> <td class="version">5.0.8</td> <td class="build">py_0</td></tr>
+<tr data-package-name="ncurses"><td class="package-name">ncurses</td> <td class="version">6.2</td> <td class="build">h0a44026_1</td></tr>
+<tr data-package-name="nest-asyncio"><td class="package-name">nest-asyncio</td> <td class="version">1.4.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="notebook"><td class="package-name">notebook</td> <td class="version">6.1.4</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="numba"><td class="package-name">numba</td> <td class="version">0.47.0</td> <td class="build">py36h6440ff4_0</td></tr>
+<tr data-package-name="numpy"><td class="package-name">numpy</td> <td class="version">1.19.5</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="olefile"><td class="package-name">olefile</td> <td class="version">0.46</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="openjdk"><td class="package-name">openjdk</td> <td class="version">8.0.152</td> <td class="build">h1de35cc_3</td></tr>
+<tr data-package-name="openssl"><td class="package-name">openssl</td> <td class="version">1.1.1l</td> <td class="build">h9ed2024_0</td></tr>
+<tr data-package-name="packaging"><td class="package-name">packaging</td> <td class="version">20.4</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pandas"><td class="package-name">pandas</td> <td class="version">0.25.3</td> <td class="build">py36h0a44026_0</td></tr>
+<tr data-package-name="pandoc"><td class="package-name">pandoc</td> <td class="version">2.11</td> <td class="build">h0dc7051_0</td></tr>
+<tr data-package-name="pandocfilters"><td class="package-name">pandocfilters</td> <td class="version">1.4.2</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="param"><td class="package-name">param</td> <td class="version">1.9.3</td> <td class="build">py_0</td></tr>
+<tr data-package-name="paramiko"><td class="package-name">paramiko</td> <td class="version">2.4.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="parso"><td class="package-name">parso</td> <td class="version">0.7.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="partd"><td class="package-name">partd</td> <td class="version">1.1.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pathtools"><td class="package-name">pathtools</td> <td class="version">0.1.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pcre"><td class="package-name">pcre</td> <td class="version">8.44</td> <td class="build">hb1e8313_0</td></tr>
+<tr data-package-name="pecos"><td class="package-name">pecos</td> <td class="version">0.1.6</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pexpect"><td class="package-name">pexpect</td> <td class="version">4.8.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="pickleshare"><td class="package-name">pickleshare</td> <td class="version">0.7.5</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="pillow"><td class="package-name">pillow</td> <td class="version">7.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pip"><td class="package-name">pip</td> <td class="version">20.0.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pkginfo"><td class="package-name">pkginfo</td> <td class="version">1.6.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="plotly"><td class="package-name">plotly</td> <td class="version">5.5.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pluggy"><td class="package-name">pluggy</td> <td class="version">0.13.1</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="prettytable"><td class="package-name">prettytable</td> <td class="version">0.7.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="prometheus_client"><td class="package-name">prometheus_client</td> <td class="version">0.8.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="prompt-toolkit"><td class="package-name">prompt-toolkit</td> <td class="version">3.0.8</td> <td class="build">py_0</td></tr>
+<tr data-package-name="prompt_toolkit"><td class="package-name">prompt_toolkit</td> <td class="version">3.0.8</td> <td class="build">0</td></tr>
+<tr data-package-name="protobuf"><td class="package-name">protobuf</td> <td class="version">3.11.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="psutil"><td class="package-name">psutil</td> <td class="version">5.7.2</td> <td class="build">py36haf1e3a3_0</td></tr>
+<tr data-package-name="ptyprocess"><td class="package-name">ptyprocess</td> <td class="version">0.6.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="py"><td class="package-name">py</td> <td class="version">1.9.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="py-stackexchange"><td class="package-name">py-stackexchange</td> <td class="version">2.2.7</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pyasn1"><td class="package-name">pyasn1</td> <td class="version">0.4.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pyasn1-modules"><td class="package-name">pyasn1-modules</td> <td class="version">0.2.8</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pycosat"><td class="package-name">pycosat</td> <td class="version">0.6.3</td> <td class="build">py36h1de35cc_0</td></tr>
+<tr data-package-name="pycparser"><td class="package-name">pycparser</td> <td class="version">2.20</td> <td class="build">py_2</td></tr>
+<tr data-package-name="pyct"><td class="package-name">pyct</td> <td class="version">0.4.8</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="pydeck"><td class="package-name">pydeck</td> <td class="version">0.3.0b2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pygments"><td class="package-name">pygments</td> <td class="version">2.7.2</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="pyhamcrest"><td class="package-name">pyhamcrest</td> <td class="version">2.0.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pymssql"><td class="package-name">pymssql</td> <td class="version">2.2.0.dev0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pynacl"><td class="package-name">pynacl</td> <td class="version">1.2.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pyopenssl"><td class="package-name">pyopenssl</td> <td class="version">19.1.0</td> <td class="build">py_1</td></tr>
+<tr data-package-name="pyparsing"><td class="package-name">pyparsing</td> <td class="version">2.4.7</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pypyodbc"><td class="package-name">pypyodbc</td> <td class="version">1.3.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="pyqt"><td class="package-name">pyqt</td> <td class="version">5.9.2</td> <td class="build">py36h655552a_2</td></tr>
+<tr data-package-name="pyrsistent"><td class="package-name">pyrsistent</td> <td class="version">0.17.3</td> <td class="build">py36haf1e3a3_0</td></tr>
+<tr data-package-name="pysocks"><td class="package-name">pysocks</td> <td class="version">1.7.1</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="pytest"><td class="package-name">pytest</td> <td class="version">6.1.1</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="python"><td class="package-name">python</td> <td class="version">3.6.12</td> <td class="build">h26836e1_2</td></tr>
+<tr data-package-name="python-daemon"><td class="package-name">python-daemon</td> <td class="version">2.1.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="python-dateutil"><td class="package-name">python-dateutil</td> <td class="version">2.8.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="python.app"><td class="package-name">python.app</td> <td class="version">2</td> <td class="build">py36h7fe2238_6</td></tr>
+<tr data-package-name="pytz"><td class="package-name">pytz</td> <td class="version">2020.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pyyaml"><td class="package-name">pyyaml</td> <td class="version">5.3.1</td> <td class="build">py36haf1e3a3_1</td></tr>
+<tr data-package-name="pyzmq"><td class="package-name">pyzmq</td> <td class="version">18.1.1</td> <td class="build">py36h0a44026_0</td></tr>
+<tr data-package-name="qt"><td class="package-name">qt</td> <td class="version">5.9.7</td> <td class="build">h468cd18_1</td></tr>
+<tr data-package-name="qtconsole"><td class="package-name">qtconsole</td> <td class="version">4.7.7</td> <td class="build">py_0</td></tr>
+<tr data-package-name="qtpy"><td class="package-name">qtpy</td> <td class="version">1.9.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="readline"><td class="package-name">readline</td> <td class="version">8.0</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="requests"><td class="package-name">requests</td> <td class="version">2.24.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="resolvelib"><td class="package-name">resolvelib</td> <td class="version">0.5.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="retrying"><td class="package-name">retrying</td> <td class="version">1.3.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="rsa"><td class="package-name">rsa</td> <td class="version">3.4.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="ruamel_yaml"><td class="package-name">ruamel_yaml</td> <td class="version">0.15.87</td> <td class="build">py36haf1e3a3_1</td></tr>
+<tr data-package-name="s3transfer"><td class="package-name">s3transfer</td> <td class="version">0.1.13</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="sciluigi"><td class="package-name">sciluigi</td> <td class="version">0.9.6b7</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="scipy"><td class="package-name">scipy</td> <td class="version">1.3.2</td> <td class="build">py36h1410ff5_0</td></tr>
+<tr data-package-name="seaborn"><td class="package-name">seaborn</td> <td class="version">0.9.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="send2trash"><td class="package-name">send2trash</td> <td class="version">1.5.0</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="service_identity"><td class="package-name">service_identity</td> <td class="version">18.1.0</td> <td class="build">py36h28b3542_0</td></tr>
+<tr data-package-name="setuptools"><td class="package-name">setuptools</td> <td class="version">50.3.0</td> <td class="build">py36h0dc7051_1</td></tr>
+<tr data-package-name="sip"><td class="package-name">sip</td> <td class="version">4.19.8</td> <td class="build">py36h0a44026_0</td></tr>
+<tr data-package-name="six"><td class="package-name">six</td> <td class="version">1.15.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="sortedcontainers"><td class="package-name">sortedcontainers</td> <td class="version">2.2.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="soupsieve"><td class="package-name">soupsieve</td> <td class="version">2.0.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="sqlite"><td class="package-name">sqlite</td> <td class="version">3.33.0</td> <td class="build">hffcf06c_0</td></tr>
+<tr data-package-name="streamlit"><td class="package-name">streamlit</td> <td class="version">0.56.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="tbb"><td class="package-name">tbb</td> <td class="version">2020.3</td> <td class="build">h879752b_0</td></tr>
+<tr data-package-name="tblib"><td class="package-name">tblib</td> <td class="version">1.7.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="tenacity"><td class="package-name">tenacity</td> <td class="version">8.0.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="tensorboard"><td class="package-name">tensorboard</td> <td class="version">1.13.1</td> <td class="build">py36haf313ee_0</td></tr>
+<tr data-package-name="tensorflow"><td class="package-name">tensorflow</td> <td class="version">1.13.1</td> <td class="build">mkl_py36haf07a9b_0</td></tr>
+<tr data-package-name="tensorflow-base"><td class="package-name">tensorflow-base</td> <td class="version">1.13.1</td> <td class="build">mkl_py36hc36dc97_0</td></tr>
+<tr data-package-name="tensorflow-estimator"><td class="package-name">tensorflow-estimator</td> <td class="version">1.13.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="termcolor"><td class="package-name">termcolor</td> <td class="version">1.1.0</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="terminado"><td class="package-name">terminado</td> <td class="version">0.9.1</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="testpath"><td class="package-name">testpath</td> <td class="version">0.4.4</td> <td class="build">py_0</td></tr>
+<tr data-package-name="text-unidecode"><td class="package-name">text-unidecode</td> <td class="version">1.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="tk"><td class="package-name">tk</td> <td class="version">8.6.10</td> <td class="build">hb0a8c7a_0</td></tr>
+<tr data-package-name="toml"><td class="package-name">toml</td> <td class="version">0.10.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="toolz"><td class="package-name">toolz</td> <td class="version">0.11.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="tornado"><td class="package-name">tornado</td> <td class="version">5.1.1</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="tqdm"><td class="package-name">tqdm</td> <td class="version">4.23.4</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="traitlets"><td class="package-name">traitlets</td> <td class="version">4.3.3</td> <td class="build">py36_0</td></tr>
+<tr data-package-name="twisted"><td class="package-name">twisted</td> <td class="version">20.3.0</td> <td class="build">py36h1de35cc_0</td></tr>
+<tr data-package-name="typing_extensions"><td class="package-name">typing_extensions</td> <td class="version">3.7.4.3</td> <td class="build">py_0</td></tr>
+<tr data-package-name="tzlocal"><td class="package-name">tzlocal</td> <td class="version">2.0.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="urllib3"><td class="package-name">urllib3</td> <td class="version">1.25.11</td> <td class="build">py_0</td></tr>
+<tr data-package-name="validators"><td class="package-name">validators</td> <td class="version">0.14.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="virtualenv"><td class="package-name">virtualenv</td> <td class="version">15.2.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="watchdog"><td class="package-name">watchdog</td> <td class="version">0.10.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="wcwidth"><td class="package-name">wcwidth</td> <td class="version">0.2.5</td> <td class="build">py_0</td></tr>
+<tr data-package-name="webencodings"><td class="package-name">webencodings</td> <td class="version">0.5.1</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="werkzeug"><td class="package-name">werkzeug</td> <td class="version">1.0.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="wheel"><td class="package-name">wheel</td> <td class="version">0.35.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="widgetsnbextension"><td class="package-name">widgetsnbextension</td> <td class="version">3.4.2</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="xarray"><td class="package-name">xarray</td> <td class="version">0.13.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="xlrd"><td class="package-name">xlrd</td> <td class="version">2.0.1</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="xz"><td class="package-name">xz</td> <td class="version">5.2.5</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="yaml"><td class="package-name">yaml</td> <td class="version">0.2.5</td> <td class="build">haf1e3a3_0</td></tr>
+<tr data-package-name="zeromq"><td class="package-name">zeromq</td> <td class="version">4.3.3</td> <td class="build">hb1e8313_3</td></tr>
+<tr data-package-name="zict"><td class="package-name">zict</td> <td class="version">2.0.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="zipp"><td class="package-name">zipp</td> <td class="version">3.4.0</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="zlib"><td class="package-name">zlib</td> <td class="version">1.2.11</td> <td class="build">h1de35cc_3</td></tr>
+<tr data-package-name="zope"><td class="package-name">zope</td> <td class="version">1.0</td> <td class="build">py36_1</td></tr>
+<tr data-package-name="zope-interface"><td class="package-name">zope-interface</td> <td class="version">5.2.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="zope.interface"><td class="package-name">zope.interface</td> <td class="version">5.1.2</td> <td class="build">py36haf1e3a3_0</td></tr>
+<tr data-package-name="zstd"><td class="package-name">zstd</td> <td class="version">1.4.5</td> <td class="build">h41d2c2f_0</td></tr>
+		</table>
+		</td> 
+		<td> 
+		<table id="expose_plot" class="packages-list">
+<tr data-package-name="blas"><td class="package-name">blas</td> <td class="version">1.0</td> <td class="build">mkl</td></tr>
+<tr data-package-name="bottleneck"><td class="package-name">bottleneck</td> <td class="version">1.3.4</td> <td class="build">py37h67323c0_0</td></tr>
+<tr data-package-name="brotli-python"><td class="package-name">brotli-python</td> <td class="version">1.0.9</td> <td class="build">py37h79c402e_2</td></tr>
+<tr data-package-name="ca-certificates"><td class="package-name">ca-certificates</td> <td class="version">2022.3.18</td> <td class="build">hecd8cb5_0</td></tr>
+<tr data-package-name="certifi"><td class="package-name">certifi</td> <td class="version">2021.10.8</td> <td class="build">py37hecd8cb5_2</td></tr>
+<tr data-package-name="click"><td class="package-name">click</td> <td class="version">8.0.4</td> <td class="build">py37hecd8cb5_0</td></tr>
+<tr data-package-name="dash"><td class="package-name">dash</td> <td class="version">1.19.0</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="dash-core-components"><td class="package-name">dash-core-components</td> <td class="version">1.3.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="dash-html-components"><td class="package-name">dash-html-components</td> <td class="version">1.0.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="dash-renderer"><td class="package-name">dash-renderer</td> <td class="version">1.1.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="dash-table"><td class="package-name">dash-table</td> <td class="version">4.4.1</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="dataclasses"><td class="package-name">dataclasses</td> <td class="version">0.8</td> <td class="build">pyh6d0b6a4_7</td></tr>
+<tr data-package-name="flask"><td class="package-name">flask</td> <td class="version">2.0.3</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="flask-compress"><td class="package-name">flask-compress</td> <td class="version">1.10.1</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="future"><td class="package-name">future</td> <td class="version">0.18.2</td> <td class="build">py37_1</td></tr>
+<tr data-package-name="gunicorn"><td class="package-name">gunicorn</td> <td class="version">20.1.0</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="importlib-metadata"><td class="package-name">importlib-metadata</td> <td class="version">4.8.2</td> <td class="build">py37hecd8cb5_0</td></tr>
+<tr data-package-name="intel-openmp"><td class="package-name">intel-openmp</td> <td class="version">2021.4.0</td> <td class="build">hecd8cb5_3538</td></tr>
+<tr data-package-name="itsdangerous"><td class="package-name">itsdangerous</td> <td class="version">2.0.1</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="jinja2"><td class="package-name">jinja2</td> <td class="version">3.0.3</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="leaflet"><td class="package-name">leaflet</td> <td class="version">0.0.3</td> <td class="build">pypi_0</td></tr>
+<tr data-package-name="libcxx"><td class="package-name">libcxx</td> <td class="version">12.0.0</td> <td class="build">h2f01273_0</td></tr>
+<tr data-package-name="libffi"><td class="package-name">libffi</td> <td class="version">3.3</td> <td class="build">hb1e8313_2</td></tr>
+<tr data-package-name="markupsafe"><td class="package-name">markupsafe</td> <td class="version">2.0.1</td> <td class="build">py37h9ed2024_0</td></tr>
+<tr data-package-name="mkl"><td class="package-name">mkl</td> <td class="version">2021.4.0</td> <td class="build">hecd8cb5_637</td></tr>
+<tr data-package-name="mkl-service"><td class="package-name">mkl-service</td> <td class="version">2.4.0</td> <td class="build">py37h9ed2024_0</td></tr>
+<tr data-package-name="mkl_fft"><td class="package-name">mkl_fft</td> <td class="version">1.3.1</td> <td class="build">py37h4ab4a9b_0</td></tr>
+<tr data-package-name="mkl_random"><td class="package-name">mkl_random</td> <td class="version">1.2.2</td> <td class="build">py37hb2f4e1b_0</td></tr>
+<tr data-package-name="ncurses"><td class="package-name">ncurses</td> <td class="version">6.3</td> <td class="build">hca72f7f_2</td></tr>
+<tr data-package-name="numexpr"><td class="package-name">numexpr</td> <td class="version">2.8.1</td> <td class="build">py37h2e5f0a9_0</td></tr>
+<tr data-package-name="numpy"><td class="package-name">numpy</td> <td class="version">1.21.2</td> <td class="build">py37h4b4dc7a_0</td></tr>
+<tr data-package-name="numpy-base"><td class="package-name">numpy-base</td> <td class="version">1.21.2</td> <td class="build">py37he0bd621_0</td></tr>
+<tr data-package-name="openssl"><td class="package-name">openssl</td> <td class="version">1.1.1n</td> <td class="build">hca72f7f_0</td></tr>
+<tr data-package-name="packaging"><td class="package-name">packaging</td> <td class="version">21.3</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="pandas"><td class="package-name">pandas</td> <td class="version">1.3.5</td> <td class="build">py37h743cdd8_0</td></tr>
+<tr data-package-name="pip"><td class="package-name">pip</td> <td class="version">21.2.2</td> <td class="build">py37hecd8cb5_0</td></tr>
+<tr data-package-name="plotly"><td class="package-name">plotly</td> <td class="version">5.6.0</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="pyparsing"><td class="package-name">pyparsing</td> <td class="version">3.0.4</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="python"><td class="package-name">python</td> <td class="version">3.7.13</td> <td class="build">hdfd78df_0</td></tr>
+<tr data-package-name="python-dateutil"><td class="package-name">python-dateutil</td> <td class="version">2.8.2</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="pytz"><td class="package-name">pytz</td> <td class="version">2021.3</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="pyyaml"><td class="package-name">pyyaml</td> <td class="version">6.0</td> <td class="build">py37hca72f7f_1</td></tr>
+<tr data-package-name="readline"><td class="package-name">readline</td> <td class="version">8.1.2</td> <td class="build">hca72f7f_1</td></tr>
+<tr data-package-name="setuptools"><td class="package-name">setuptools</td> <td class="version">58.0.4</td> <td class="build">py37hecd8cb5_0</td></tr>
+<tr data-package-name="six"><td class="package-name">six</td> <td class="version">1.16.0</td> <td class="build">pyhd3eb1b0_1</td></tr>
+<tr data-package-name="sqlite"><td class="package-name">sqlite</td> <td class="version">3.37.2</td> <td class="build">h707629a_0</td></tr>
+<tr data-package-name="tenacity"><td class="package-name">tenacity</td> <td class="version">8.0.1</td> <td class="build">py37hecd8cb5_0</td></tr>
+<tr data-package-name="tk"><td class="package-name">tk</td> <td class="version">8.6.11</td> <td class="build">h7bc2e8c_0</td></tr>
+<tr data-package-name="typing_extensions"><td class="package-name">typing_extensions</td> <td class="version">4.1.1</td> <td class="build">pyh06a4308_0</td></tr>
+<tr data-package-name="werkzeug"><td class="package-name">werkzeug</td> <td class="version">2.0.3</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="wheel"><td class="package-name">wheel</td> <td class="version">0.37.1</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="xz"><td class="package-name">xz</td> <td class="version">5.2.5</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="yaml"><td class="package-name">yaml</td> <td class="version">0.2.5</td> <td class="build">haf1e3a3_0</td></tr>
+<tr data-package-name="zipp"><td class="package-name">zipp</td> <td class="version">3.7.0</td> <td class="build">pyhd3eb1b0_0</td></tr>
+<tr data-package-name="zlib"><td class="package-name">zlib</td> <td class="version">1.2.11</td> <td class="build">h4dc903c_4</td></tr>
+		</table>
+		</td> 
+		<td> 
+		<table id="immo" class="packages-list">
+<tr data-package-name="appnope"><td class="package-name">appnope</td> <td class="version">0.1.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="attrs"><td class="package-name">attrs</td> <td class="version">19.3.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="backcall"><td class="package-name">backcall</td> <td class="version">0.1.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="blas"><td class="package-name">blas</td> <td class="version">1.0</td> <td class="build">mkl</td></tr>
+<tr data-package-name="bzip2"><td class="package-name">bzip2</td> <td class="version">1.0.8</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="ca-certificates"><td class="package-name">ca-certificates</td> <td class="version">2020.1.1</td> <td class="build">0</td></tr>
+<tr data-package-name="cairo"><td class="package-name">cairo</td> <td class="version">1.14.12</td> <td class="build">hc4e6be7_4</td></tr>
+<tr data-package-name="certifi"><td class="package-name">certifi</td> <td class="version">2020.4.5.1</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="click"><td class="package-name">click</td> <td class="version">7.1.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="click-plugins"><td class="package-name">click-plugins</td> <td class="version">1.1.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="cligj"><td class="package-name">cligj</td> <td class="version">0.5.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="curl"><td class="package-name">curl</td> <td class="version">7.67.0</td> <td class="build">ha441bb4_0</td></tr>
+<tr data-package-name="cycler"><td class="package-name">cycler</td> <td class="version">0.10.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="decorator"><td class="package-name">decorator</td> <td class="version">4.4.2</td> <td class="build">py_0</td></tr>
+<tr data-package-name="entrypoints"><td class="package-name">entrypoints</td> <td class="version">0.3</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="expat"><td class="package-name">expat</td> <td class="version">2.2.6</td> <td class="build">h0a44026_0</td></tr>
+<tr data-package-name="fiona"><td class="package-name">fiona</td> <td class="version">1.8.4</td> <td class="build">py37h9a122fd_0</td></tr>
+<tr data-package-name="fontconfig"><td class="package-name">fontconfig</td> <td class="version">2.13.0</td> <td class="build">h5d5b041_1</td></tr>
+<tr data-package-name="freetype"><td class="package-name">freetype</td> <td class="version">2.9.1</td> <td class="build">hb4e5f40_0</td></tr>
+<tr data-package-name="freexl"><td class="package-name">freexl</td> <td class="version">1.0.5</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="gdal"><td class="package-name">gdal</td> <td class="version">2.3.3</td> <td class="build">py37hbe65578_0</td></tr>
+<tr data-package-name="geopandas"><td class="package-name">geopandas</td> <td class="version">0.6.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="geos"><td class="package-name">geos</td> <td class="version">3.7.1</td> <td class="build">h0a44026_0</td></tr>
+<tr data-package-name="gettext"><td class="package-name">gettext</td> <td class="version">0.19.8.1</td> <td class="build">h15daf44_3</td></tr>
+<tr data-package-name="giflib"><td class="package-name">giflib</td> <td class="version">5.1.4</td> <td class="build">h1de35cc_1</td></tr>
+<tr data-package-name="glib"><td class="package-name">glib</td> <td class="version">2.63.1</td> <td class="build">hd977a24_0</td></tr>
+<tr data-package-name="hdf4"><td class="package-name">hdf4</td> <td class="version">4.2.13</td> <td class="build">h39711bb_2</td></tr>
+<tr data-package-name="hdf5"><td class="package-name">hdf5</td> <td class="version">1.10.4</td> <td class="build">hfa1e0ec_0</td></tr>
+<tr data-package-name="icu"><td class="package-name">icu</td> <td class="version">58.2</td> <td class="build">h0a44026_3</td></tr>
+<tr data-package-name="intel-openmp"><td class="package-name">intel-openmp</td> <td class="version">2019.4</td> <td class="build">233</td></tr>
+<tr data-package-name="ipykernel"><td class="package-name">ipykernel</td> <td class="version">5.1.4</td> <td class="build">py37h39e3cac_0</td></tr>
+<tr data-package-name="ipython"><td class="package-name">ipython</td> <td class="version">7.13.0</td> <td class="build">py37h5ca1d4c_0</td></tr>
+<tr data-package-name="ipython_genutils"><td class="package-name">ipython_genutils</td> <td class="version">0.2.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="jedi"><td class="package-name">jedi</td> <td class="version">0.17.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="jpeg"><td class="package-name">jpeg</td> <td class="version">9b</td> <td class="build">he5867d9_2</td></tr>
+<tr data-package-name="json-c"><td class="package-name">json-c</td> <td class="version">0.13.1</td> <td class="build">h3efe00b_0</td></tr>
+<tr data-package-name="jupyter_client"><td class="package-name">jupyter_client</td> <td class="version">6.1.3</td> <td class="build">py_0</td></tr>
+<tr data-package-name="jupyter_core"><td class="package-name">jupyter_core</td> <td class="version">4.6.3</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="kealib"><td class="package-name">kealib</td> <td class="version">1.4.7</td> <td class="build">hf5ed860_6</td></tr>
+<tr data-package-name="kiwisolver"><td class="package-name">kiwisolver</td> <td class="version">1.2.0</td> <td class="build">py37h04f5b5a_0</td></tr>
+<tr data-package-name="krb5"><td class="package-name">krb5</td> <td class="version">1.16.4</td> <td class="build">hddcf347_0</td></tr>
+<tr data-package-name="libboost"><td class="package-name">libboost</td> <td class="version">1.67.0</td> <td class="build">hebc422b_4</td></tr>
+<tr data-package-name="libcurl"><td class="package-name">libcurl</td> <td class="version">7.67.0</td> <td class="build">h051b688_0</td></tr>
+<tr data-package-name="libcxx"><td class="package-name">libcxx</td> <td class="version">4.0.1</td> <td class="build">hcfea43d_1</td></tr>
+<tr data-package-name="libcxxabi"><td class="package-name">libcxxabi</td> <td class="version">4.0.1</td> <td class="build">hcfea43d_1</td></tr>
+<tr data-package-name="libdap4"><td class="package-name">libdap4</td> <td class="version">3.19.1</td> <td class="build">h3d3e54a_0</td></tr>
+<tr data-package-name="libedit"><td class="package-name">libedit</td> <td class="version">3.1.20181209</td> <td class="build">hb402a30_0</td></tr>
+<tr data-package-name="libffi"><td class="package-name">libffi</td> <td class="version">3.2.1</td> <td class="build">h475c297_4</td></tr>
+<tr data-package-name="libgdal"><td class="package-name">libgdal</td> <td class="version">2.3.3</td> <td class="build">h0950a36_0</td></tr>
+<tr data-package-name="libgfortran"><td class="package-name">libgfortran</td> <td class="version">3.0.1</td> <td class="build">h93005f0_2</td></tr>
+<tr data-package-name="libiconv"><td class="package-name">libiconv</td> <td class="version">1.16</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="libkml"><td class="package-name">libkml</td> <td class="version">1.3.0</td> <td class="build">hbe12b63_4</td></tr>
+<tr data-package-name="libnetcdf"><td class="package-name">libnetcdf</td> <td class="version">4.6.1</td> <td class="build">hd5207e6_2</td></tr>
+<tr data-package-name="libpng"><td class="package-name">libpng</td> <td class="version">1.6.37</td> <td class="build">ha441bb4_0</td></tr>
+<tr data-package-name="libpq"><td class="package-name">libpq</td> <td class="version">11.2</td> <td class="build">h051b688_0</td></tr>
+<tr data-package-name="libsodium"><td class="package-name">libsodium</td> <td class="version">1.0.16</td> <td class="build">h3efe00b_0</td></tr>
+<tr data-package-name="libspatialindex"><td class="package-name">libspatialindex</td> <td class="version">1.9.3</td> <td class="build">h0a44026_0</td></tr>
+<tr data-package-name="libspatialite"><td class="package-name">libspatialite</td> <td class="version">4.3.0a</td> <td class="build">h644ec7d_19</td></tr>
+<tr data-package-name="libssh2"><td class="package-name">libssh2</td> <td class="version">1.9.0</td> <td class="build">ha12b0ac_1</td></tr>
+<tr data-package-name="libtiff"><td class="package-name">libtiff</td> <td class="version">4.1.0</td> <td class="build">hcb84e12_0</td></tr>
+<tr data-package-name="libxml2"><td class="package-name">libxml2</td> <td class="version">2.9.9</td> <td class="build">hf6e021a_1</td></tr>
+<tr data-package-name="matplotlib"><td class="package-name">matplotlib</td> <td class="version">3.1.3</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="matplotlib-base"><td class="package-name">matplotlib-base</td> <td class="version">3.1.3</td> <td class="build">py37h9aa3819_0</td></tr>
+<tr data-package-name="mkl"><td class="package-name">mkl</td> <td class="version">2019.4</td> <td class="build">233</td></tr>
+<tr data-package-name="mkl-service"><td class="package-name">mkl-service</td> <td class="version">2.3.0</td> <td class="build">py37hfbe908c_0</td></tr>
+<tr data-package-name="mkl_fft"><td class="package-name">mkl_fft</td> <td class="version">1.0.15</td> <td class="build">py37h5e564d8_0</td></tr>
+<tr data-package-name="mkl_random"><td class="package-name">mkl_random</td> <td class="version">1.1.0</td> <td class="build">py37ha771720_0</td></tr>
+<tr data-package-name="munch"><td class="package-name">munch</td> <td class="version">2.5.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="ncurses"><td class="package-name">ncurses</td> <td class="version">6.1</td> <td class="build">h0a44026_1</td></tr>
+<tr data-package-name="numpy"><td class="package-name">numpy</td> <td class="version">1.17.3</td> <td class="build">py37h4174a10_0</td></tr>
+<tr data-package-name="numpy-base"><td class="package-name">numpy-base</td> <td class="version">1.17.3</td> <td class="build">py37h6575580_0</td></tr>
+<tr data-package-name="openjpeg"><td class="package-name">openjpeg</td> <td class="version">2.3.0</td> <td class="build">hb95cd4c_1</td></tr>
+<tr data-package-name="openssl"><td class="package-name">openssl</td> <td class="version">1.1.1g</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="pandas"><td class="package-name">pandas</td> <td class="version">0.25.3</td> <td class="build">py37h0a44026_0</td></tr>
+<tr data-package-name="parso"><td class="package-name">parso</td> <td class="version">0.7.0</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pcre"><td class="package-name">pcre</td> <td class="version">8.43</td> <td class="build">h0a44026_0</td></tr>
+<tr data-package-name="pexpect"><td class="package-name">pexpect</td> <td class="version">4.8.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="pickleshare"><td class="package-name">pickleshare</td> <td class="version">0.7.5</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="pip"><td class="package-name">pip</td> <td class="version">19.3.1</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="pixman"><td class="package-name">pixman</td> <td class="version">0.38.0</td> <td class="build">h1de35cc_0</td></tr>
+<tr data-package-name="poppler"><td class="package-name">poppler</td> <td class="version">0.65.0</td> <td class="build">ha097c24_1</td></tr>
+<tr data-package-name="poppler-data"><td class="package-name">poppler-data</td> <td class="version">0.4.9</td> <td class="build">0</td></tr>
+<tr data-package-name="proj4"><td class="package-name">proj4</td> <td class="version">5.2.0</td> <td class="build">h0a44026_1</td></tr>
+<tr data-package-name="prompt-toolkit"><td class="package-name">prompt-toolkit</td> <td class="version">3.0.4</td> <td class="build">py_0</td></tr>
+<tr data-package-name="prompt_toolkit"><td class="package-name">prompt_toolkit</td> <td class="version">3.0.4</td> <td class="build">0</td></tr>
+<tr data-package-name="ptyprocess"><td class="package-name">ptyprocess</td> <td class="version">0.6.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="pygments"><td class="package-name">pygments</td> <td class="version">2.6.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pyparsing"><td class="package-name">pyparsing</td> <td class="version">2.4.7</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pyproj"><td class="package-name">pyproj</td> <td class="version">1.9.6</td> <td class="build">py37h9c430a6_0</td></tr>
+<tr data-package-name="python"><td class="package-name">python</td> <td class="version">3.7.5</td> <td class="build">h359304d_0</td></tr>
+<tr data-package-name="python-dateutil"><td class="package-name">python-dateutil</td> <td class="version">2.8.1</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pytz"><td class="package-name">pytz</td> <td class="version">2019.3</td> <td class="build">py_0</td></tr>
+<tr data-package-name="pyzmq"><td class="package-name">pyzmq</td> <td class="version">18.1.1</td> <td class="build">py37h0a44026_0</td></tr>
+<tr data-package-name="readline"><td class="package-name">readline</td> <td class="version">7.0</td> <td class="build">h1de35cc_5</td></tr>
+<tr data-package-name="rtree"><td class="package-name">rtree</td> <td class="version">0.9.4</td> <td class="build">py37_1</td></tr>
+<tr data-package-name="setuptools"><td class="package-name">setuptools</td> <td class="version">41.6.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="shapely"><td class="package-name">shapely</td> <td class="version">1.6.4</td> <td class="build">py37he8793f5_0</td></tr>
+<tr data-package-name="six"><td class="package-name">six</td> <td class="version">1.13.0</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="sqlite"><td class="package-name">sqlite</td> <td class="version">3.30.1</td> <td class="build">ha441bb4_0</td></tr>
+<tr data-package-name="tk"><td class="package-name">tk</td> <td class="version">8.6.8</td> <td class="build">ha441bb4_0</td></tr>
+<tr data-package-name="tornado"><td class="package-name">tornado</td> <td class="version">6.0.4</td> <td class="build">py37h1de35cc_1</td></tr>
+<tr data-package-name="traitlets"><td class="package-name">traitlets</td> <td class="version">4.3.3</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="wcwidth"><td class="package-name">wcwidth</td> <td class="version">0.1.9</td> <td class="build">py_0</td></tr>
+<tr data-package-name="wheel"><td class="package-name">wheel</td> <td class="version">0.33.6</td> <td class="build">py37_0</td></tr>
+<tr data-package-name="xerces-c"><td class="package-name">xerces-c</td> <td class="version">3.2.2</td> <td class="build">h44e365a_0</td></tr>
+<tr data-package-name="xz"><td class="package-name">xz</td> <td class="version">5.2.4</td> <td class="build">h1de35cc_4</td></tr>
+<tr data-package-name="zeromq"><td class="package-name">zeromq</td> <td class="version">4.3.1</td> <td class="build">h0a44026_3</td></tr>
+<tr data-package-name="zlib"><td class="package-name">zlib</td> <td class="version">1.2.11</td> <td class="build">h1de35cc_3</td></tr>
+<tr data-package-name="zstd"><td class="package-name">zstd</td> <td class="version">1.3.7</td> <td class="build">h5bba6e5_0</td></tr>
+		</table>
+		</td> 
+	</tr>
+</table>
+
+<!-- import choices.js -->
+<script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+
+
+<!-- import custom script -->
+<script>
+/*
+ * Get all packages name from table
+ *
+*/
+var getAllPackagesName = function(){
+  var packageNameClasses = document.querySelectorAll(".package-name")
+  var allPackagesName = Array.from(packageNameClasses).map(elem => elem.innerHTML)
+  var allUniquePackagesName = allPackagesName .filter((value, index, self) =>  self.indexOf(value) === index )
+  
+  return allUniquePackagesName
+}
+
+
+/*
+ * Append 1 option HTML element to a parent HTML element
+ * @param {HTMLElement} parent to be populated with option
+ * @param {string} optionValue is the value to set for option value and inner text
+ */
+var appendOption = function(parent, optionValue){
+  var newOpt = document.createElement("option")
+  newOpt.setAttribute("value", optionValue)
+  var newText = document.createTextNode(optionValue)
+
+  newOpt.appendChild(newText)
+  parent.appendChild(newOpt)
+}
+
+
+/*
+ * Create all options from Array
+ * @param {HTMLElement} select in which populate with options
+ * @param {Array} values in options
+ */
+var createOptionFromArray = function(selectHTMLElement, arr){
+  arr.forEach(elem => appendOption(selectHTMLElement, elem))
+}
+
+/*
+ * get all selected option values from a select html element
+ * @param {string} selectedId id of the select html element
+ * @return {Array} packages name array
+ */
+var getSelectedOptionsValues = function(selectId="packages-selector"){
+  var selectedOptions = document.getElementById(selectId).selectedOptions
+	var selectedOptionsValues = Array.from(selectedOptions).map(elem => elem.value)
+
+  return selectedOptionsValues
+}
+
+
+/*
+ * hide elements if not in selection
+ * @param {NodeList} nodeList to hide or not, depending in selection
+ * @param {Array} selection is an array of elements to display
+ */
+var hideElementsNotinSelection = function(nodeList, selection){
+    if(selection.length == 0){
+        nodeList.forEach(elem => elem.removeAttribute("hidden"));
+    } else {
+        nodeList.forEach(elem => {
+            if(selection.includes(elem.getAttribute("data-package-name"))){
+                elem.removeAttribute("hidden")
+            } else {
+                elem.setAttribute("hidden", "true")
+            }
+        })
+    }
+};
+
+
+
+var allPackagesName = getAllPackagesName()
+var selectElement = document.getElementById("packages-selector")
+
+// Populate options
+createOptionFromArray(selectElement, allPackagesName)
+
+// Add dynanism on selection change
+selectElement.onchange = () => {
+  var packagesNodeList = document.querySelectorAll("table .packages-list tr")
+  var selectedPackagesArray = getSelectedOptionsValues()
+    
+  hideElementsNotinSelection(packagesNodeList, selectedPackagesArray)
+};
+
+// Add Choices.js plugin for select UI
+var choices = new Choices(selectElement, {
+  removeItemButton: true,
+  // resetScrollPosition: false // overwritten with hideDropDown when adding item
+});
+
+// Hide dropdown after addind item
+selectElement.addEventListener('addItem', () => choices.hideDropdown(), false);
+
+
+</script>
+
+
