@@ -91,4 +91,5 @@ var choices = new Choices(selectElement, {
 
 // Hide dropdown after addind item
 selectElement.addEventListener('addItem', () => choices.hideDropdown(), false);
+selectElement.addEventListener('removeItem', () => choices.hideDropdown(), false);
 
