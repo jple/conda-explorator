@@ -3,7 +3,7 @@ This repo creates a html page containing all conda env packages.
 The generated page contains search bar to find packages in order to choose the proper env.
 
 # Demo
-[Demo here](https://jple.github.io/conda-explorator/demo/main.html)
+[Demo here](https://jple.github.io/conda-explorer/demo/main.html)
 
 # Features
 - show all conda env with installed packages (including pip)
